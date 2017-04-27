@@ -1,0 +1,56 @@
+.nav
+{
+	position: fixed;
+	height: 60px;
+	width: top;
+	top: 50px;
+	left: 0px;
+	right: 0px;
+}
+.nav ul
+{
+	margin: 0px;
+	padding:0px;
+	list-style: none;
+	background-color: #000000;
+}
+
+.nav ul li 
+{
+	display: inline-table;
+	height: 60px;
+	position: relative;
+	text-align: center;
+	transition: background-color 0.7s;
+	vertical-align: middle;
+	width: 200px;
+}
+.nav ul li:hover
+{
+	background-color: #9C4E9F;
+	transition: background-color 0.7s;
+
+}
+.nav ul li:hover >ul
+{
+	display: inline-block;
+}
+.nav ul li a
+{
+	font-family:arial, helvetica,sans-serif;
+	color: white;
+	display: table-cell;
+	text-decoration: none;
+	vertical-align: middle;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 40px;
+}
+
+.nav ul li >ul
+{
+	display: none;
+	left: 0px;
+	position: absolute;
+	top: 100%;
+}
