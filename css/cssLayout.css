@@ -25,9 +25,8 @@ header
 section
 {
 	text-align: center;
-	background-image: url("../img/cayac.png");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-attachment: fixed;
 	bottom: 0px;
 	padding-bottom: 50px;
@@ -47,13 +46,18 @@ footer
 {
 	background-color: #5F3961;
 	height: 50px;
-	text-align: center;
+	text-align: right;
 	position: fixed;
 	left: 0px;
 	right: 0px;
 	line-height: 50px;
 	font-family:arial, helvetica,sans-serif;
 	color:white;
+	float: left;
+	padding-right: 50px
+
+
+
 }
 #contenedor
 {
@@ -76,9 +80,14 @@ footer
 #yaca
 {
 	height: 30%;
+	box-shadow: #000000 1px 1px 1px 1px;
 	border-radius: 350px;
 	top: 0px;
 	margin: 15px;
+	border:none;
+	float: right;
+	margin-right: 40px;
+
 	
 
 }
